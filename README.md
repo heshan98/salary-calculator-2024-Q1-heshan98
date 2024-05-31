@@ -31,6 +31,9 @@ npm run dev
 ```
 This will start the application and you can access it in your web browser at the specified local server address
 
+Visit Website Directly !
+
+[https://github.com/heshan98/salary-calculator-2024-Q1-heshan98](https://github.com/heshan98/salary-calculator-2024-Q1-heshan98)
 For more information, please visit the repository.
 
 Feel free to reach out if you have any questions or issues!
