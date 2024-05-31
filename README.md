@@ -1,27 +1,34 @@
-Salary Calculator
+# Salary Calculator 2024 Q1
+
 A web application to calculate salaries based on various inputs and criteria. This project aims to simplify payroll processing by providing a user-friendly interface for salary computation.
 
-Installation
-Before you begin, ensure you have Node.js and npm installed on your machine. If not, you can download and install them from Node.js official website.
+## Prerequisites
 
-Clone the repository:
-bash
-Copy code
+- [Node.js]
+
+## Getting Started
+
+### Cloning the Repository
+
+To get a local copy up and running, follow these steps:
+
+```bash
 git clone https://github.com/heshan98/salary-calculator-2024-Q1-heshan98.git
-Navigate to the project directory:
-bash
-Copy code
 cd salary-calculator-2024-Q1-heshan98
-Install the necessary dependencies:
-bash
-Copy code
-npm install
-Running the Application
-To start the application in development mode, use the following command:
+```
+Install Dependencies
 
-bash
-Copy code
+```bash
+npm install
+
+```
+
+Running the project
+
+```bash
 npm run dev
+
+```
 This will start the application and you can access it in your web browser at the specified local server address
 
 For more information, please visit the repository.
