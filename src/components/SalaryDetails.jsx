@@ -49,11 +49,11 @@ const SalaryDetails = ({
           </tr>
           <tr>
             <td>Basic Salary</td>
-           <div className="amount"><td> {basicSalaryNumber.toFixed(2)}</td></div> 
+           <td> &nbsp;&nbsp;{basicSalaryNumber.toFixed(2)}</td>
           </tr>
           <tr>
             <td>Gross Earning</td>
-            <div className="amount"><td>{grossEarning.toFixed(2)}</td></div>
+           <td>&nbsp;&nbsp;{grossEarning.toFixed(2)}</td>
           </tr>
           <tr>
             <td>Gross Deduction</td>
@@ -82,11 +82,11 @@ const SalaryDetails = ({
           </tr>
           <tr>
             <td>Employer EPF (12%)</td>
-            <div className="amount"><td>{employerEPF.toFixed(2)}</td></div>
+            <td>&nbsp;&nbsp;{employerEPF.toFixed(2)}</td>
           </tr>
           <tr>
             <td>Employer ETF (3%)</td>
-            <div className="amount"><td>{employerETF.toFixed(2)}</td></div>
+            <td>&nbsp;&nbsp;{employerETF.toFixed(2)}</td>
           </tr>
           <tr>
             <td>
