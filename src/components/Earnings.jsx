@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import clearIcon from "../assets/clear.png"; 
+import addIcon from "../assets/Vector.png"
 
 const Earnings = ({
   setTotalEarnings,
@@ -107,7 +108,7 @@ const Earnings = ({
           addNewEarningField();
         }}
       >
-        <img src="src/assets/vector.png"  /> Add
+        <img src={addIcon}  /> Add
         New Allowance
       </a>
     </div>

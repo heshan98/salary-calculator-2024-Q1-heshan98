@@ -3,6 +3,7 @@ import Earnings from "./Earnings";
 import Deductions from "./Deduction";
 import SalaryDetails from "./SalaryDetails";
 import { useState } from "react";
+import resetIcon from "../assets/reset.png"
 
 const App = () => {
   const [basicSalary, setBasicSalary] = useState(0);
@@ -24,7 +25,7 @@ const App = () => {
             }}
           >
             {" "}
-            <img src="src/assets/reset.png" alt="Reset Icon" /> Reset
+            <img src={resetIcon} alt="Reset Icon" /> Reset
           </a>
         </div>
         <BasicSalary

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import clearIcon from "../assets/clear.png";
+import addIcon from "../assets/Vector.png"
 
 const Deductions = ({ onTotalDeductionChange }) => {
   const [sections, setSections] = useState([{ title: "", amount: "" }]);
@@ -63,7 +64,7 @@ const Deductions = ({ onTotalDeductionChange }) => {
           addSection();
         }}
       >
-        <img src="src/assets/vector.png" /> Add New Allowance
+        <img src={addIcon} /> Add New Allowance
       </a>
     </div>
   );
